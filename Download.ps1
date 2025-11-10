@@ -1,8 +1,3 @@
-# ===========================
-# USB→J + Win64 Helper + Storage deploy (PS 5.1)
-# Menu: Install / Repair / Uninstall. Disables Device Connect/Disconnect sounds.
-# ===========================
-
 function Write-ColoredLine { param([string]$Text,[ConsoleColor]$Color='White')
   $old=$Host.UI.RawUI.ForegroundColor; $Host.UI.RawUI.ForegroundColor=$Color
   Write-Host $Text; $Host.UI.RawUI.ForegroundColor=$old
