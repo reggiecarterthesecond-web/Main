@@ -1,6 +1,0 @@
-﻿{
-    "enableUntoggleButton": true,
-    "onlyLeftClick": true,
-    "toggleButtonKeys": ["XMOUSE2"],
-    "mouseCheckInterval": 10
-}
